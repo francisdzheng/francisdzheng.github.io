@@ -19,7 +19,7 @@ h2 {
 }
 
 /*--banner--*/
-.banner{
+.banner {
   z-index: 1;
 	background: url(../../images/shanghai.jpg) no-repeat fixed center;
 	background-size: cover;
@@ -46,15 +46,16 @@ width:65%;
 margin: 0px auto 0 auto;
 }
 
-.banner-right h1{
+.banner-right h1 {
 font-size:40px;
 font-weight:800;
 color:#ffffff;
 margin:135px 0 15px 0;
 letter-spacing: 10px;
+
 }
 
-.banner-right h2{
+.banner-right h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
   font-weight: 300;
@@ -94,7 +95,7 @@ background-color: #F3F3F3;
 float:right;
 }
 
-.border {
+.banner-line {
   background: #ffffff;
   width: 70%;
   margin: 0 auto;
@@ -102,7 +103,7 @@ float:right;
 }
 
 /*--banner nav--*/
-.nav {
+.navbar {
 	text-align: right;
 	opacity: 1;
 	/*-webkit-animation: fade-up 1s ease forwards;
@@ -113,7 +114,7 @@ float:right;
 	height: 50px;
 }
 
-.nav ul {
+.navbar ul {
 	display: inline-block;
 	list-style-type: none;
 	padding: 0;
@@ -121,25 +122,36 @@ float:right;
 	overflow: hidden;
 }
 
-.nav li {
+.navbar li {
 	float: left;
 	padding-bottom: 10px;
 }
 
-.nav li a {
-    margin: 0px 14px;
-    padding: 5px;
-    color: #111111;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    padding-bottom: 13px;
+.navbar li a {
+	display: block;
+	color: #111111;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 20px;
+	text-decoration: none;
+	transition: background 0.6s;
+
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
 }
+
+.navbar li a:hover {
+	font-size: 16px;
+	letter-spacing: 3px;
+}
+
 /*--/banner nav--*/
 /*--/banner--*/
 
 @media(max-width:1440px){
-
   .top-header {
     margin-top: 30px;
   }
@@ -173,7 +185,7 @@ float:right;
 }
 
 #about-body{
-	text-align: center;
+	text-align: left;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.2;
@@ -195,8 +207,12 @@ float:right;
   line-height: 1;
   text-align: center;
 	padding: 10px 40px;
+	-webkit-transition: all 1s ease;
 }
 
+#photography-header:hover{
+	-webkit-filter: blur(2px);
+}
 .japanphotos {
 	padding: 10px 10px;
 	width: 300px;
@@ -213,17 +229,24 @@ float:right;
 
 /*--/photography--*/
 
+/*--footer--*/
 .footer{
 	margin-bottom: 0px;
   padding: 40px 30px;
-  text-align: right;
-	background-color: #e1eaea;
+  text-align: center;
+	background-color: #e6e6e6;
 }
 
+.status {
+	padding: 20px 20px;
+}
 .icon{
 	height: 20px;
 	padding: 20px 20px;
 }
+
+/*--/footer--*/
+
 #worldmap{
 	position: absolute;
   width: 85%;
