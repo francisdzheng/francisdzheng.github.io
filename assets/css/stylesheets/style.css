@@ -253,3 +253,35 @@ float:right;
   height: 95%;
   left: 180px;
 }
+
+.back-button {
+	padding: 10px;
+	text-decoration: none;
+	transition: 100ms;
+	color: rgba(58,71,80,0.6);
+}
+
+/*--photography page--*/
+.photography-banner {
+	font-family: 'Poiret One';
+}
+
+.photography-title {
+	font-size: 50px;
+	padding: 18px;
+}
+
+.photo-banner-line {
+	background: black;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1px;
+}
+
+.back-button:hover {
+	text-decoration: underline;
+}
+
+.photo-container {
+	margin-left: 12%;
+}
