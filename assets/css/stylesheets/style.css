@@ -1,5 +1,12 @@
+html {
+	height: 100%;
+	width: 100%;
+}
 body {
-	font-family: 'Hind', sans-serif;
+	font-family: 'Roboto';
+	margin: 0px;
+	height: 100%;
+	width: 100%;
 }
 
 body a {
@@ -10,165 +17,75 @@ body a {
 	-ms-transition: 0.5s all ease;
 }
 
-h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 15px !important;
-  line-height: 20px;
-  letter-spacing: 1px;
-}
-
-/*--banner--*/
-.banner {
-  z-index: 1;
-	background: url(../../images/shanghai.jpg) no-repeat fixed center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	text-align: center;
-}
-
-#me {
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
-
-#me:hover{
--webkit-filter: blur(2px);
-}
-
-.banner-info{
-width:65%;
-margin: 0px auto 0 auto;
-}
-
-.banner-right h1 {
-font-size:40px;
-font-weight:800;
-color:#ffffff;
-margin:135px 0 15px 0;
-letter-spacing: 10px;
-
-}
-
-.banner-right h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 50px;
-  font-weight: 300;
-  color: #ffffff;
-  margin: 15px 0 30px 0;
-}
-
-.banner-right a{
-text-decoration:none;
-color:#ffffff;
-font-size:16px;
-font-weight:500;
-padding:12px 22px;
-border:2px solid #fff;
-margin-right: 11px;
-margin-left: 11px;
-}
-
-.banner-right a:hover {
-letter-spacing: 1.5px;
-background-color: #F3F3F3;
-}
-
-.banner-left{
-  margin-top: 135px;
-  float:left;
-  width: 300px;
-  height: 150px;
-}
-
-#me {
-  border-radius: 50%;
-  width: 70%;
-}
-
-.banner-right{
-float:right;
-}
-
-.banner-line {
-  background: #ffffff;
-  width: 70%;
-  margin: 0 auto;
-  padding: 1px;
-}
-
-/*--banner nav--*/
-.navbar {
-	text-align: right;
-	opacity: 1;
-	/*-webkit-animation: fade-up 1s ease forwards;
-	animation: fade-up 1s ease forwards;
-	-webkit-animation-delay: 5.5s;
-	animation-delay: 5.5s;*/
+#container {
+	height: 100%;
 	width: 100%;
-	height: 50px;
+}
+/*--navigation--*/
+#navigation {
+  letter-spacing: 5px;
+	background-color: rgba(76, 87, 101, 0.6);
+	text-decoration: none;
+	width: 100%;
+	height: 60px;
 }
 
-.navbar ul {
+#navigation .button {
+	color: white;
+  margin-left: 10px;
+	font-size: 16px;
+}
+
+.button {
+  border: none;
+  transition: 0.3s;
+}
+.navbar-header {
 	display: inline-block;
-	list-style-type: none;
-	padding: 0;
-	padding-bottom: 5px;
+	height: 100%;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.name-nav {
+	color: white;
+	text-decoration: none;
+}
+.navbar {
+	display: inline-block;
+	height: 100%;
+	float: right;
+}
+.navitems {
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.navitem {
+	display: inline-block;
+}
+.button {
+	display: block;
+	text-decoration: none;
+}
+/*--/navigation--*/
+/*--home--*/
+#home {
+	height: calc(100% - 60px);
+	width: 100%;
+	overflow: hidden;
+	/*background-image: url("../../images/sanfran.jpeg");*/
+}
+
+#homeback {
+	position: relative;
+	width: 100%;
 	overflow: hidden;
 }
 
-.navbar li {
-	float: left;
-	padding-bottom: 10px;
+#name {
+	position: relative;
+	margin-top: 20px;
 }
-
-.navbar li a {
-	display: block;
-	color: #111111;
-	font-size: 14px;
-	font-weight: 600;
-	letter-spacing: 2px;
-	padding: 20px;
-	text-decoration: none;
-	transition: background 0.6s;
-
-	-webkit-transition: 0.5s all ease;
-	-moz-transition: 0.5s all ease;
-	-o-transition: 0.5s all ease;
-	-ms-transition: 0.5s all ease;
-}
-
-.navbar li a:hover {
-	font-size: 16px;
-	letter-spacing: 3px;
-}
-
-/*--/banner nav--*/
-/*--/banner--*/
-
-@media(max-width:1440px){
-  .top-header {
-    margin-top: 30px;
-  }
-  .banner.page-head {
-    min-height: 115px;
-  }
-  .banner {
-    min-height: 659px;
-  }
-}
-
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 0 auto;
-  left: 50%;
-}
+/*--/home--*/
 /*--about--*/
 .about {
 	padding: 50px 0 15px 0;

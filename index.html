@@ -2,55 +2,51 @@
 <html>
 <head>
     <title>Francis Zheng</title>
-
-    <link href='https://fonts.googleapis.com/css?family=Hind:400,600,500,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
 		<link href="assets/css/stylesheets/style.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="/favicon.ico?v=1">
   </head>
 <body>
-<!--top banner-->
-    <div class="banner" id="home">
-  	   <div class="container">
-         <div class="navbar">
-           <ul>
-             <li>
-               <a href="photography.html">Photography</a>
-             <li>
-               <a href="travel.html">My Travels</a>
-             </li>
-           </ul>
-         </div>
-		       <div class="banner-info">
-			          <div class="banner-left">
-                  <a href = "https://www.instagram.com/p/6JXi8GmoVp/?taken-by=francisdzheng">
-				          <img src="assets/images/gardenback.jpeg" alt="" id="me">
-                  </a>
-			          </div>
-			          <div class="banner-right">
-				            <h1>FRANCIS ZHENG</h1>
-				            <div class="banner-line"></div>
-				            <h2><abrr title="computer science and cognitive science">cs^2</abbr> @berkeley <br> this site is under construction.</h2>
-				        <div id="chat"><a href="mailto:francisdzheng@berkeley.edu">LET'S CHAT</a></div>
-			          </div>
-		      </div>
-	    </div>
-    </div>
-<!--/top banner-->
+<div id="container">
+<!--navigation-->
+<div id="navigation">
+  <div class="navbar-header">
+    <a class="name-nav" href="#home">FRANCIS ZHENG</a>
+  </div>
+  <div class="navbar">
+    <ul class="navitems">
+      <li class = "navitem">
+        <a href="#about" class="button"> ABOUT</a>
+      </li>
+      <li class="navitem">
+        <a href="#photography" class="button"> PHOTOGRAPHY</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--/navigation-->
+<!--home-->
+<div id="home">
+  <div id="homebackground">
+    <img id="homeback" src="assets/images/sanfran.jpeg">
+  </div>
+  <div id="name">FRANCIS ZHENG</div>
+</div>
+<!--/home->
 
 <!--about-->
-<div class="about section" id="about">
-  <div class="container">
-    <div class="header" id="about-header">ABOUT</div>
-    <div class="bodytext" id="about-body">
-      <p>I'm Francis, a freshman at UC Berkeley with a passion for the sights, smells, people and everything else the world around us has to offer. I have only just begun to explore the world through my love of learning languages, both human and computer. </p>
-      <p>Through human languages, I can speak to the world; through programming, I can help create the world. Human-centered design is my passion.</p>
-      <p>I am currently pursuing degrees in Business Administration and Computer Science at UC Berkeley. In my free time, I enjoy learning foreign languages, taking photos of awesome buildings, reading about human rights in the East Asian region, and traveling the world.</p>
-    </div>
-
+<div class="section" id="about">
+  <div class="header" id="about-header">ABOUT</div>
+  <div class="bodytext" id="about-body">
+    <p>I'm Francis, a freshman at UC Berkeley with a passion for the sights, smells, people and everything else the world around us has to offer. I have only just begun to explore the world through my love of learning languages, both human and computer. </p>
+    <p>Through human languages, I can speak to the world; through programming, I can help create the world. Human-centered design is my passion.</p>
+    <p>I am currently pursuing degrees in Business Administration and Computer Science at UC Berkeley. In my free time, I enjoy learning foreign languages, taking photos of awesome buildings, reading about human rights in the East Asian region, and traveling the world.</p>
+  </div>
+</div>
 <!--/about-->
 
 <!--photography-->
-<div class="photography section" id="photography">
+<div class="section" id="photography">
   <div class = "container">
     <div class="header" id="photography-header">PHOTOGRAPHY</div>
     <div id="photography-subheader">A few photos from my most recent trip to Japan.</div>
@@ -106,7 +102,7 @@
   <div class="copyright">
     Copyright © 2016 Francis Zheng</div>
 </div>
-
 <!--/footer-->
-  </body>
+</div>
+</body>
 </html>
