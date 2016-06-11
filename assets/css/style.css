@@ -92,6 +92,7 @@ body a {
 }
 
 .lang-switch {
+	font-weight: 200;
 	display: inline-block;
 	padding-top: 12px;
 	text-decoration: none;
