@@ -77,6 +77,32 @@ body a {
 }
 /*--/navigation--*/
 
+/*--langswitch--*/
+#lang-switch-container {
+	position: absolute;
+	z-index: 10;
+	width: 80px;
+	height: 40px;
+	background-color: white;
+	right: 0;
+	margin-top: 15px;
+	margin-right: 15px;
+	opacity: 0.6;
+	text-align: center;
+}
+
+.lang-switch {
+	display: inline-block;
+	padding-top: 12px;
+	text-decoration: none;
+	color: black;
+}
+
+#en {
+	font-weight: bold;
+}
+/*--/langswitch--*/
+
 /*--home-text--*/
 #home-text-container {
 	position: absolute;
@@ -93,7 +119,6 @@ body a {
 #home-text {
 	margin-top: 30px;
 }
-
 /*--/home-text--*/
 
 /*--home--*/
