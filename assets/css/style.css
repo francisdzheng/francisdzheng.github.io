@@ -1,56 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 html {
 	height: 100%;
 	width: 100%;
 }
 body {
-	font-family: 'Roboto';
-	margin: 0px;
-	height: 100%;
-	width: 100%;
+  text-transform: lowercase;
+  font-family: 'Source Sans Pro';
+  margin: 0px;
+  height: 100%;
+  width: 100%;
 }
 
 body a {
-	transition: 0.5s all ease;
-	-webkit-transition: 0.5s all ease;
-	-moz-transition: 0.5s all ease;
-	-o-transition: 0.5s all ease;
-	-ms-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
 }
 
-#container {
-	height: 100%;
-	width: 100%;
+h1, h2 {
+  opacity: 0.8;
 }
+
+
 /*--navigation--*/
-#navigation {
+.navigation {
   letter-spacing: 1px;
-	width: 80%;
-	color: black;
-	position: absolute;
-	margin-top: 30px;
-	margin-left: 10%;
-	background-color: white;
-	z-index: 10;
-	opacity: 0.6;
-}
+  width: 80%;
+  color: black;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 10%;
+  background-color: white;
+  z-index: 10;
+  opacity: 0.8;
+  height: 50px;
 
-#navigation .button {
-	color: black;
-	text-decoration: none;
-  margin-left: 20px;
-	font-size: 16px;
-	font-weight: 300;
-}
-
-.button {
-  border: none;
-  transition: 0.3s;
+  -webkit-animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  -ms-animation: fadein 3s;
+  -o-animation: fadein 3s;
+  animation: fadein 3s;
 }
 
 .navbar-header {
 	display: inline-block;
 	height: 100%;
-	margin-top: 20px;
+    line-height: 50px;
 	margin-left: 20px;
 }
 
@@ -59,82 +57,185 @@ body a {
 	text-decoration: none;
 	font-weight: bold;
 }
-.navbar {
+
+.navicons {
 	display: inline-block;
 	height: 100%;
+    line-height: 50px;
 	float: right;
-}
-.navitems {
-	margin-top: 20px;
 	margin-right: 20px;
 }
-.navitem {
-	display: inline-block;
+
+.navicons i {
+  color: black;
+  padding-right: 15px;
 }
-.button {
-	display: block;
-	text-decoration: none;
-}
+
 /*--/navigation--*/
 
-/*--langswitch--*/
-#lang-switch-container {
-	position: absolute;
-	z-index: 10;
-	width: 80px;
-	height: 40px;
-	background-color: white;
-	right: 0;
-	margin-top: 15px;
-	margin-right: 15px;
-	opacity: 0.6;
-	text-align: center;
-}
-
-.lang-switch {
-	font-weight: 200;
-	display: inline-block;
-	padding-top: 12px;
-	text-decoration: none;
-	color: black;
-}
-
-#en {
-	font-weight: bold;
-}
-/*--/langswitch--*/
-
 /*--home-text--*/
-#home-text-container {
-	position: absolute;
-	z-index: 10;
-	width: 60%;
-	height: 240px;
-	margin-top: 120px;
-	margin-left: 20%;
-	background-color: white;
-	opacity: 0.6;
-	text-align: center;
+.home-text-container {
+  position: absolute;
+  z-index: 10;
+  width: 380px;
+  height: 240px;
+  margin-top: 180px;
+  margin-left: 10%;
+  background-color: white;
+  opacity: 0.8;
+  text-align: left;
+
+  -webkit-animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  -ms-animation: fadein 5s;
+  -o-animation: fadein 5s;
+  animation: fadein 5s;
 }
 
-#home-text {
-	margin-top: 30px;
+.home-text {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 52px;
+}
+
+.sub-text {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  -webkit-animation: fadein 10s;
+  -moz-animation: fadein 10s;
+  -ms-animation: fadein 10s;
+  -o-animation: fadein 10s;
+  animation: fadein 10s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.8; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.8; }
+}
+
+@media(max-width: 1190px) {
+  .home-text-container {
+    height: 220px;
+    margin-top: 160px;
+  }
+  
+  .home-text {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  
+  .sub-text {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+}
+
+@media(max-width: 1100px) {
+  .home-text-container {
+    margin-top: 140px;
+  }
+  
+  .home-text {
+    font-size: 48px;
+  }
+  
+}
+
+@media(max-width: 1000px) {
+  .home-text-container {
+    margin-top: 100px;
+  }
+  
+  .home-text {
+    font-size: 48px;
+  }
 }
 /*--/home-text--*/
 
-/*--home--*/
-#home {
-	width: 100%;
-	height: 100%;
+/*--currently--*/
+.currently {
+  position: absolute;
+  z-index: 10;
+  width: 380px;
+  height: 60px;
+  margin-top: 420px;
+  margin-left: 58%;
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+
+  -webkit-animation: fadein 12s;
+  -moz-animation: fadein 12s;
+  -ms-animation: fadein 12s;
+  -o-animation: fadein 12s;
+  animation: fadein 12s;
 }
 
-#homebackground {
+.c-text {
+  display: inline-block;
+  opacity: 0.8;
+  line-height: 60px;
+}
+
+.c-text a {
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+@media(max-width: 1190px) {
+  .currently {
+    margin-top: 360px;
+    margin-left: 52%;
+  }
+}
+
+@media(max-width: 1100px) {
+  .currently {
+    margin-top: 300px;
+    width: 300px;
+    font-size: 18px;
+    margin-left: 58%;
+  }
+}
+
+@media(max-width: 1000px) {
+  .currently {
+    margin-top: 260px;
+  }
+  
+}
+/*--/currently--*/
+
+/*--home--*/
+.home {
+	width: 100%;
+	height: 100% - 300px;
+}
+
+.homebackground {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
 }
 
-#homeback {
+.homeback {
+  margin-top: -300px;
 	width: 100%;
 }
 /*--/home--*/
+
+/*--about--*/
+.about {
+  width: 60%;
+  margin-top: 60px;
+  margin-left: 10%;
+  line-height: 32px;
+}
+/*--/about--*/
