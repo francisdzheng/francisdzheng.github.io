@@ -1,0 +1,48 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+    background: #86ffda;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  max-width: 420px;
+  margin: auto;
+  margin-top: 120px;
+  height: 100%;
+  color: #58585a;
+	text-transform: lowercase;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+a:link {
+  color:#61748C;
+	font-weight:bold;
+  text-decoration: none;
+  transition: 80ms;
+}
+
+a:visited{
+	color:#61748C;
+}
+
+a:hover, a:focus, a:active{
+  background-color: #E3E0D1;
+	color:#800000;
+  text-decoration: underline;
+}
