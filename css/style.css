@@ -50,3 +50,18 @@ a:hover, a:focus, a:active{
 .social {
   text-align: center;
 }
+
+.social a{
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  padding: 0px;
+}
+
+.social a:hover {
+  text-decoration: none;
+}
+
+.social a i {
+  font-size: 16px;
+}
