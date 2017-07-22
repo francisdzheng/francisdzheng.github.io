@@ -46,3 +46,7 @@ a:hover, a:focus, a:active{
 	color:#800000;
   text-decoration: underline;
 }
+
+.social {
+  text-align: center;
+}
