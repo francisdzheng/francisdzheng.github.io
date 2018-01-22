@@ -18,6 +18,7 @@
   "homepage": "https://github.com/francisdzheng/francisdzheng.github.io#readme",
   "dependencies": {
     "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
     "gulp-csslint": "^1.0.0",
     "gulp-sass": "^3.1.0"
   }
