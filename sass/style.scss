@@ -19,6 +19,13 @@ body {
 	text-transform: lowercase;
 }
 
+@media (max-width:800px) {
+  body {
+    padding-left: 15px;
+    padding-right: 15px
+  }
+}
+
 a:link {
   color:#61748C;
 	font-weight:bold;
@@ -59,7 +66,6 @@ a:hover, a:focus, a:active{
     }
 
     .social {
-
       a {
         display: inline-block;
         margin: 5px;
@@ -87,7 +93,13 @@ a:hover, a:focus, a:active{
       margin-left: -20px;
       margin-right: -20px;
 
-      a {
+      @media screen and (max-width: 450px) {
+        flex-flow: row wrap;
+        margin-left: -10px;
+        margin-right: -10px; 
+      }
+
+      .work-item {
         color: inherit;
         flex: 1;
         margin: 5px 5px 25px;
@@ -150,6 +162,44 @@ a:hover, a:focus, a:active{
     }
   }
 }
+
+@media (max-width:600px) {
+  .home-intro {
+    margin-top: 40px;
+
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 17px;
+      margin-top: 30px;
+      text-align: left;
+    }
+  }
+
+  .home-work {
+    margin-top: 20px;
+      
+    a {
+      margin: 0 0 10px;
+      width: 100%;
+    }
+  }
+}
+
+// @media (max-width:450px) {
+//   .work-pair {
+//     flex-flow: row wrap;
+//     margin-left: -10px;
+//     margin-right: -10px;
+
+//     a {
+//       flex: initial;
+//       padding: 10px;
+//     }
+//   }
+// }
 
 .page-container {
   color: #3A4750;
