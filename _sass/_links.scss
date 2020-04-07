@@ -13,13 +13,14 @@ article a, .news a {
     font-weight: 100;
 
     &:hover {
+        color: #800000;
+        background-color: #E3E0D1;
         text-decoration: underline;
     }
 }
 
 .social a {
     color: $text-color;
-
     &:hover { color: $theme-color; }
 }
 
