@@ -1,8 +1,8 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Francis</strong> Zheng
+description: Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -16,8 +16,7 @@ news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a graduate student in the [Department of Technology Management for Innovation](http://tmi.t.u-tokyo.ac.jp){:target="\blank"} at the [University of Tokyo](https://www.u-tokyo.ac.jp/en/index.html){:target="\blank"}. I'm part of the [Matsuo Lab](https://weblab.t.u-tokyo.ac.jp){:target="\blank"}. I completed my undergraduate studies at the [University of California, Berkeley](https://www.berkeley.edu/){:target="\_blank"} with majors in [computer science](https://eecs.berkeley.edu/){:target="\_blank"} and [linguistics](https://lx.berkeley.edu/){:target="\_blank"}.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Research interests:**  
+Computational linguistics, natural language processing, syntax, semantics, machine learning, technology and public policy
