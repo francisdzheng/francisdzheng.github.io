@@ -10,6 +10,7 @@ __University of Tokyo__
 
 - 2019.09 - present
 - Department of Technology Management for Innovation
+- Advisor: Yutaka Matsuo
 
 
 __University of California, Berkeley__
