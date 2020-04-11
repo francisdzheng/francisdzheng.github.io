@@ -28,4 +28,3 @@ __Hyundai Engineering and Construction__, Seoul
 - 2016.06 - 2016.08
 - Global Marketing Team
 
-
