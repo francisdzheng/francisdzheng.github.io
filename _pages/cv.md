@@ -8,23 +8,15 @@ description: curriculum vitae
 ## education
 [**University of Tokyo**](https://www.u-tokyo.ac.jp/en/index.html){:target="\blank"}
 
-- 2019.09 - present
-- Department of Technology Management for Innovation
-- Advisor: Yutaka Matsuo
+Master of Engineering in Technology Management for Innovation
 
 
 [**University of California, Berkeley**](https://www.berkeley.edu/){:target="\_blank"}
 
-- 2015.08 - 2019.05
-- Bachelor of Arts in Computer Science and Linguistics
+Bachelor of Arts in Computer Science and Linguistics (2019)
 
 ## employment
-[**SK hynix**](https://www.skhynix.com){:target="\blank"}, San Jose
-- 2018.06 - 2018.08
+[**SK hynix**](https://www.skhynix.com){:target="\blank"}, San Jose, 2018
 
-
-[**Hyundai Engineering and Construction**](http://en.hdec.kr){:target="\blank"}, Seoul
-
-- 2016.06 - 2016.08
-- Global Marketing Team
+[**Hyundai Engineering and Construction**](http://en.hdec.kr){:target="\blank"}, Seoul, 2016
 
