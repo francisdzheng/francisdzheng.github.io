@@ -8,7 +8,7 @@ description: curriculum vitae
 ## education
 [**University of Tokyo**](https://www.u-tokyo.ac.jp/en/index.html){:target="\blank"}
 
-Master of Engineering in Technology Management for Innovation
+Master of Engineering in Technology Management for Innovation (2021)
 
 
 [**University of California, Berkeley**](https://www.berkeley.edu/){:target="\_blank"}
