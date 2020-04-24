@@ -6,11 +6,11 @@ description: Machine learning researcher
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Tokyo, Japan</p>
+  # image: prof_pic.jpg
+  # address: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Tokyo, Japan</p>
 
 news: true
 social: true
