@@ -5,4 +5,4 @@ title: teaching
 description: a small space
 ---
 
-I'm currently a TA for __291324-02: Data Science for Practical Economic Research__ at the University of Tokyo.
+I'm currently a TA for [291324-02: Data Science for Practical Economic Research](/dsper2020/) at the University of Tokyo.
